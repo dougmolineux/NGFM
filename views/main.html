@@ -1,0 +1,14 @@
+<h1>{{team.name}}</h1> <br />
+Formation: {{formation.name}} <br />
+Season: {{season.name}} <br />
+Fixture: {{season.fixture}} <br />
+Points: {{team.points}} <br />
+Change Team Name:
+<input type="text" ng-model="team.name" placeholder="Enter a name here"><br />
+Change Formation:
+<select ng-model="formation" ng-options="f.name for f in formations"></select>
+<br /><br />
+<a href="#/match">Start Game</a>
+<a href="#/league">League Table</a>
+<a href="#/team">Team</a>
+<a href="#/player">Player</a>

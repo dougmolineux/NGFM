@@ -1,0 +1,10 @@
+<div id="matchInfo">
+	{{matchInfo}}
+	<span>{{matchMinute}}</span>
+</div>
+<div id="events">{{events}}</div>
+<br />
+<a href="" ng-click="startGame()" ng-hide="gamePlaying">Kick-Off</a>
+<a href="" ng-click="startGame()" ng-show="halfTime">Start Second Half</a>
+<a href="" ng-click="endGame()" ng-show="gameOver">Continue with Season</a>
+<a href="#/" ng-hide="gamePlaying">Back to Main</a>
