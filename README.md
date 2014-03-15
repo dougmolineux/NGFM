@@ -16,4 +16,4 @@ Todo
 3. Update League table with points of results
 4. Bind players and teams to match
 
-![Alt text](/screenshots/screenshot1 "Stocks Screenshot 1")
+![Alt text](/screenshots/screenshot1.png "Stocks Screenshot 1")
