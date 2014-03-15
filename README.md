@@ -3,6 +3,8 @@ NGFM
 
 Football Management Sim written with AngularJS.
 
+Live version can be found here: http://dougmolineux.com/ngfm
+
 State of the project
 ====
 
